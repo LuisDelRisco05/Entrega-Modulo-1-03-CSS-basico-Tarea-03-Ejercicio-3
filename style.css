@@ -1,0 +1,91 @@
+body {
+    background-color: #1b9aee;
+    color: Black;
+    padding: 1%;
+}
+
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+  }
+
+header{
+    background-color: var(--blue);;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 1%;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+main{
+    background-color: darkslateblue;
+    padding: 1%;
+}
+
+h1{
+    background-color: #0f468d;
+    font-size: x-large;
+    padding: 1%;
+}
+h1::first-letter {
+    font-size: 2rem;
+    color: red;
+}
+
+h2{
+    background-color: #B3B3B3;
+    font-size: large;
+    padding: 1%;
+}
+
+p{
+    align-content: center;
+    background-color: #c6c4c4;
+    padding: 1%;
+}
+
+
+footer{
+    background-color: #999999;
+    padding: 1%;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+/* eliminamos los estilos de los enlaces*/
+a:hover{
+    color: red;
+}
+a{
+    text-decoration:none;
+    color: inherit;
+}
+
+a:link{
+    background-color: yellowgreen;
+}
+
+input.disabled:disabled {
+    font-size: 1rem;
+}
+
+input.focus:focus {
+    background-color: #0f468d;
+}
+
+label::before {
+    content: "!!";
+    color: red;
+    font-size: 2rem;
+}
+label::after {
+    content: " -.-" ;
+    color: orangered;
+    font-size: 2rem;
+}
+
+button.active:active {
+    font-size: 3rem;
+    background-color: darkmagenta;
+    border-radius: 1.5rem;
+}
